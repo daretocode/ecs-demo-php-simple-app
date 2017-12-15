@@ -61,6 +61,25 @@
         .auto-style13 {
             width: 81%;
         }
+        .auto-style14 {
+            font-size: xx-large;
+            height: 40px;
+        }
+        .auto-style15 {
+            font-size: large;
+        }
+        .auto-style16 {
+            font-size: xx-large;
+        }
+        .auto-style17 {
+            width: 217px;
+        }
+        .auto-style18 {
+            width: 232px;
+        }
+        .auto-style19 {
+            width: 99px;
+        }
     </style>
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -70,17 +89,20 @@
         
     <table class="auto-style13">
     <tr>
-        <td colspan="3"><strong>Select Items to Purchase</strong></td>
+        <td colspan="3" class="auto-style15">Concierge Order Register</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="auto-style14"><strong>Select Items to Purchase</strong></td>
+        <td class="auto-style16" rowspan="3">
+            <img alt="" src="https://s3-us-west-2.amazonaws.com/daretozlatan/trello.png" /></td>
     </tr>
     <tr>
         <td class="auto-style1"><strong>Name</strong>: Jim Vandragt</td>
         <td><strong>Manager</strong>: John McLaughin</td>
-        <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1"><strong>Department</strong>: US9506-ProductDev</td>
         <td><strong>Mail Stop:</strong> 0161</td>
-        <td>&nbsp;</td>
     </tr>
 </table>
 <table class="auto-style13">
@@ -163,6 +185,27 @@
     <tr>
         <td class="auto-style10"><strong>Total Cost:</strong></td>
         <td>$ 0.49</td>
+    </tr>
+</table>
+
+<table class="auto-style13">
+    <tr>
+        <td>
+            <input id="Submit1" class="auto-style17" type="submit" value="SUBMIT" /></td>
+        <td>
+            <input id="Button1" class="auto-style18" type="button" value="CANCEL" /></td>
+        <td>
+            <input id="Button2" class="auto-style19" type="button" value="Print" /></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
     </tr>
 </table>
 
